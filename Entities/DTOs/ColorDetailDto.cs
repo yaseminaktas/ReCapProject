@@ -7,11 +7,9 @@ using System.Threading.Tasks;
 
 namespace Entities.DTOs
 {
-    public class CarDetailDto: IDto
+    public class ColorDetailDto:IDto
     {
+        public int ColorId { get; set; }
         public string Name { get; set; }
-        public string BrandName { get; set; }
-        public string ColorName { get; set; }
-        public int DailyPrice { get; set; }
     }
 }
