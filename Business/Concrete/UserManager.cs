@@ -1,6 +1,7 @@
 ﻿using Business.Abstract;
 using Business.Constants;
 using Core;
+using Core.Entities.Concrete;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -30,6 +31,21 @@ namespace Business.Concrete
         public IDataResult<List<User>> GetAll()
         {
             return new SuccessDataResult<List<User>>(_userDal.GetAll());
+        }
+
+        public User GetByMail(string email)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<OperationClaim> GetClaims(User user)
+        {
+            throw new NotImplementedException();
+        }
+
+        void IUserService.Add(User user)
+        {
+            throw new NotImplementedException();
         }
     }
 }
