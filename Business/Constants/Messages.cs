@@ -29,13 +29,13 @@ namespace Business.Constants
         public static string UserListed = "Kullanıcılar listelendi";
         /////////////////////////////////////////////////////////////////////////
         public static string RentalAdded = "Araba kiralandı";
-        public static string AuthorizationDenied;
-        internal static string AccessTokenCreated;
-        internal static string UserAlreadyExists;
-        internal static User PasswordError;
-        internal static string SuccessfulLogin;
-        internal static User UserNotFound;
-        internal static string UserRegistered;
+        public static string AuthorizationDenied = "yetkiniz yok";
+        public static string UserRegistered = "Kullanıcı kayıt oldu";
+        public static string UserNotFound = "Kullanıcı bulunamadı";
+        public static string PasswordError = "Şifre hatalı";
+        public static string UserAlreadyExists = "Kullanıcı zaten var";
+        public static string SuccessfulLogin = "Başarıyla giriş yapıldı";
+        public static string AccessTokenCreated = "Token oluşturuldu";
         /////////////////////////////////////////////////////////////////////////
 
     }
